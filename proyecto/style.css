@@ -762,7 +762,7 @@ table {
     border: 3px solid #9923ad;
 }
 .foto9 {
-    width: 28%;
+    width: 25%;
     border: 3px solid #9923ad;
 }
 .foto7 {
@@ -779,7 +779,7 @@ table {
     flex-wrap: wrap;
     justify-content: space-evenly;
     position: relative;
-    top: 380px;
+    top: 150px;
     background: black;
 }
 
@@ -790,7 +790,7 @@ table {
     justify-content: space-evenly;
     align-items: flex-start;
     position: relative;
-    top: 350px;
+    top: 145px;
     height: 350px;
     border-bottom: 3px solid #9923ad;
     background: black;
@@ -823,7 +823,7 @@ table {
     flex-wrap: wrap;
     align-items: center;
     position: relative;
-    top: 290px;
+    top: 125px;
     left: 0px;
     width: 100%;
     height: 140px;
@@ -862,7 +862,7 @@ table {
 }
 .timeOut {
     position: relative;
-    top: 240px;
+    top: 123px;
     border-bottom: 3px solid #9923ad;
     display: flex;
     flex-direction: column;
@@ -896,4 +896,39 @@ table {
     left: 505px;
     border-bottom: 2px solid #9923ad;
 }
-
+.unBuenDia {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    top: 210px;  
+}
+.unBuenDiaTitulo {
+    color: white;
+    font-size: 25px;
+    font-family: serif;
+    border-bottom: 3px solid #9923ad;
+    position: relative;
+    top: -28px;
+}
+.articuloUnBuenDia {
+    color: white;
+    font-size: 18px;
+    font-style: italic;
+    border-bottom: 3px solid #9923ad;
+    width: 100%;
+    height: 69%;
+    position: relative;
+    top: -47px;
+    height: 150px
+}
+.unBuenDiaLink {
+    position: relative;
+    top: -96px;
+    left: 530px;
+    font-size: 19px;
+    color: #9923ad;
+    text-decoration: none;
+    border-bottom: 2px solid #9923ad;
+}
